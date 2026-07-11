@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "inarimining",
+	"version": "${version}",
+	"name": "InariMining",
+	"description": "自動マイニングMod - Hypixel Skyblock風サーバー向け",
+	"authors": [
+		"Inari"
+	],
+	"contact": {
+		"homepage": "https://github.com/inari/inarimining",
+		"sources": "https://github.com/inari/inarimining"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/inarimining/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.inari.InariMining"
+		],
+		"client": [
+			"com.inari.client.InariMiningClient"
+		]
+	},
+	"mixins": [
+		"inarimining.mixins.json",
+		{
+			"config": "inarimining.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*",
+		"themedgui": "*"
+	}
+}

@@ -1,0 +1,10 @@
+{
+  "key.inarimining.toggle_automine": "自動採掘を切り替え",
+  "key.inarimining.toggle_pathfinding": "パスファインディングを切り替え",
+  "key.inarimining.toggle_etherwarp": "エーテルワープを切り替え",
+  "key.inarimining.toggle_inventory": "インベントリ管理を切り替え",
+  "key.inarimining.toggle_antistaff": "アンチスタッフを切り替え",
+  "key.inarimining.toggle_macrocheck": "マクロチェック回避を切り替え",
+  "key.inarimining.open_config": "設定を保存",
+  "category.inarimining": "InariMining"
+}

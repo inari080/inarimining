@@ -1,0 +1,10 @@
+{
+  "key.inarimining.toggle_automine": "Toggle Auto Mine",
+  "key.inarimining.toggle_pathfinding": "Toggle Pathfinding",
+  "key.inarimining.toggle_etherwarp": "Toggle Etherwarp",
+  "key.inarimining.toggle_inventory": "Toggle Inventory Manager",
+  "key.inarimining.toggle_antistaff": "Toggle Anti Staff",
+  "key.inarimining.toggle_macrocheck": "Toggle Macro Check Avoidance",
+  "key.inarimining.open_config": "Save Config",
+  "category.inarimining": "InariMining"
+}
