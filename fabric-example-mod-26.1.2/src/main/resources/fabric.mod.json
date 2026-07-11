@@ -20,6 +20,9 @@
 		],
 		"client": [
 			"com.inari.client.InariMiningClient"
+		],
+		"themedgui:addon": [
+			"com.inari.client.addon.InariMiningThemedGuiAddon"
 		]
 	},
 	"mixins": [
